@@ -30,9 +30,11 @@
 .chefao{
     position: absolute;
     top: 10%;
-    width: 50%;
-    left: 62%;
+    width: 40%;
+    right: 0%;
+    bottom: 0;
     height: 280px;
+    animation: corrida-animation 180s infinite linear ;
 }
 .morcegao{
     position: absolute;
@@ -41,7 +43,7 @@
     bottom: 0;
     top: 500px;
     height: 200px;
-    animation: personagem3-animation 2s infinite linear;
+    animation: corrida-animation 2s infinite linear;
 }
 
 .gameover1{
@@ -95,9 +97,9 @@ h4:hover{
 }
 
 
-@keyframes personagem3-animation {
+@keyframes corrida-animation {
     from {
-        right: -20px;
+        right: -120px;
     }
     to {
         right  : 100%;
