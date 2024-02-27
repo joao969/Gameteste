@@ -1,10 +1,12 @@
 const zeldinha = document.querySelector('.zeldinha');
 const morcegao = document.querySelector('.morcegao');
+const chefao = document.querySelector('.chefao');
 const gameover1 = document.querySelector('.gameover1');
 const gameover2 = document.querySelector('.gameover2');
 const gameover3 = document.querySelector('.gameover3');
 const fim = document.querySelector('.fim');
 const reiniciar = document.querySelector('.reiniciar');
+
 
 const jump = () => {
     zeldinha.classList.add('jump');
@@ -25,9 +27,6 @@ const loop = setInterval(() => {
         morcegao.style.animation = 'none';
         morcegao.style.left = `${morcegaoPosition}px`;
 
-
-
-
         zeldinha.style.animation = 'none';
         zeldinha.style.bottom = `${zeldinhaPosition}px`;
 
@@ -39,6 +38,7 @@ const loop = setInterval(() => {
         fim.textContent = 'GAME OVER';
         reiniciar.textContent = 'REINICIAR';
         
+
         clearInterval(loop);
     }
 
