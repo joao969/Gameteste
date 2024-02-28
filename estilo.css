@@ -3,17 +3,20 @@
     padding: 0;
     box-sizing: border-box;
     background-color: #3b3636;
+    
 }
+
 
 .pag1{
     position: relative;
     width: 80%;
-    height: 850px;
+    height: 90vh;
     margin: 0 auto;
     background-image: url(../Gameteste/imagens/cenario1.gif);
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
+    
  
 }
 
@@ -24,7 +27,7 @@ h1{
     background-color: transparent;
     font-size: 500%;
     top: 20%;
-    left: 20%;
+    left: 13%;
     
 
 }
@@ -63,9 +66,9 @@ h1{
 .button {
   cursor: pointer;
   position: relative;
-  padding: 20px 48px;
+  padding: 15px 49px;
   background-color: #7d7572;
-  font-size: 25px;
+  font-size: 18px;
   color: #fefefe;
   font-weight: 500;
   border: none;

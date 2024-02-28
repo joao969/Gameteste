@@ -24,7 +24,7 @@ a{
 
 .zeldinha{
     position: absolute;
-    width: 300px;
+    width: 320px;
     bottom: 0;
     left:50px;
     background-color: transparent;
@@ -35,25 +35,25 @@ a{
     animation: jump 900ms ease-out;
 }
 
-.fantasma{
+.esqueleto{
     position: absolute;
     background-color: transparent;
-    top: 60%;
-    width: 20%;
+    top: 65%;
+    width: 15%;
     right: 0%;
     bottom: 0;
-    height: 280px;
-    animation: corrida-animation 3s infinite linear ;
+    height: 180px;
+    animation: corrida-animation 2s infinite linear ;
 }
 .chefao{    
     position: absolute;
     background-color: transparent;
-    width: 500px;
+    width: 600px;
     right: 0px;
     bottom: 0;
-    top: 180px;
-    height: 400px;
-    animation: corrida-animation 50s infinite linear;
+    top: 170px;
+    height: 500px;
+    animation: corrida-animation 80s infinite linear;
 }
 
 .gameover1{
@@ -69,26 +69,50 @@ a{
 }
 
 .fim{
+    -webkit-text-stroke-width: 1px; /* largura da borda */
+    -webkit-text-stroke-color: #000000; /* cor da borda */
     position:relative;
     text-align: center;
-    font-size: 300%;
-    top: 20%;
+    font-size: 120px;
+    top: 10%;
     background-color: transparent;
-    color: rgb(179, 51, 46);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 h4{
+    -webkit-text-stroke-width: 1px; /* largura da borda */
+    -webkit-text-stroke-color: #000000; /* cor da borda */
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: relative;
     text-align: center;
-    top: 30%;
+    font-size: 50px;
+    top: 10%;
     background-color: transparent;
-    color: rgb(216, 57, 52);
+    color: rgb(255, 255, 255);
 }
 h4:hover{
     text-decoration: none;
-    color: aliceblue;
+    color: rgb(243, 0, 0);
+}
+
+
+@keyframes jump2 {
+    0%{
+        bottom: 0;
+    }
+    50%{
+        bottom: 280px;
+    }
+    50%{
+        bottom: 280px;
+    }
+    50%{
+        bottom: 280px;
+    }
+    100%{
+        bottom: 0;
+    }
 }
 
 @keyframes jump {
