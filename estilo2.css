@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+}
 
 .pag1{
     position: relative;
@@ -59,23 +62,21 @@
 }
 
 .fim{
-    position: absolute;
-    left: 30%;
+    position:relative;
+    text-align: center;
     font-size: 300%;
-    color:  rgb(179, 51, 46);
+    color: rgb(179, 51, 46);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 h4{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    position: absolute;
-    width: 30%;   
-    left: 43%;
-    top: 48%;
+    position: relative;
+    text-align: center;
     color: rgb(216, 57, 52);
-    text-decoration: none;
 }
 h4:hover{
+    text-decoration: none;
     color: aliceblue;
 }
 @keyframes jump {
