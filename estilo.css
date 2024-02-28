@@ -2,12 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #3b3636;
 }
 
 .pag1{
     position: relative;
-    width: 50%;
-    height: 700px;
+    width: 80%;
+    height: 850px;
     margin: 0 auto;
     background-image: url(../Gameteste/imagens/cenario1.gif);
     background-size: cover;
@@ -19,17 +20,15 @@
 
 h1{
    position: absolute;
-    color: aliceblue;
-    font-size: 300%;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    font-size: 500%;
     top: 20%;
-    left: 15%;
+    left: 20%;
     
 
 }
-.personagem1{
-    position: absolute;
-    top: 500px;
-}
+
 
 /*---------- BOTAO --------------- */
 .button-cont {
@@ -38,7 +37,7 @@ h1{
   height: fit-content;
   border-radius: 9999px;
   top: 50%;
-  left: 38%;
+  left: 40%;
 }
 
 .button-cont::before {
@@ -65,8 +64,8 @@ h1{
   cursor: pointer;
   position: relative;
   padding: 20px 48px;
-  background-color: #0a4860;
-  font-size: 16px;
+  background-color: #7d7572;
+  font-size: 25px;
   color: #fefefe;
   font-weight: 500;
   border: none;
