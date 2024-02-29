@@ -2,23 +2,52 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #3b3636;
+   
     
 }
 
 
 .pag1{
     position: relative;
-    width: 80%;
-    height: 90vh;
+    width: 100%;
+    height: 100vh;
     margin: 0 auto;
-    background-image: url(../Gameteste/imagens/cenario1.gif);
+    background-color: rgb(42, 61, 165);
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
-    
  
 }
+
+.digivice{
+  position: relative;
+  
+  width: 40%;
+  left: 28%;
+  top: 10%;
+}
+.brasao1{
+  position: relative;
+ 
+  width: 8%;
+  right:0%;
+  top: -23%;
+}
+
+.fundo{
+  position: absolute;
+  height: 25vh;
+  width: 13%;
+  left: 38%;
+  top: 25%;
+}
+
+
+
+
+
+
+
 
 
 h1{
