@@ -12,7 +12,7 @@
     width: 100%;
     height: 100vh;
     margin: 0 auto;
-    background-color: rgb(42, 61, 165);
+    background-image: url(../Gameteste/imagens/imgfundo2.gif);
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -28,9 +28,9 @@
 }
 .perso1{
   position: relative;
-  width: 5%;
+  width: 8%;
   right:0%;
-  top: -23%;
+  top: -24%;
 }
 
 .fundo{
@@ -65,20 +65,48 @@ h1{
   gap: 20px;
   width: 34%;
 }
-.btnvoltar{
+.op1{
+  cursor: pointer;
   position: relative;
-  right: 55%;
-  width: 10%;
-  top: 20vh;
+  right: 57%;
+  border-radius: 100%;
+  width: 17%;
+  height: 14vh;
+  top: 15vh;
+  background-color:transparent ;
+  border: none;
 }
-.btnvoltar:active{
-  background-color: blue;
+.op1:active{
+  background-color: rgb(67, 67, 199);
+  opacity: 20%;
 }
-.btnproximo{
+.op2{
+  cursor: pointer;
   position: relative;
-  width: 10%;
-  top: 22vh;
+  width: 21%;
+  height: 12vh;
+  border-radius: 100%;
+  top: 18vh;
+  right: 9%;
+  background-color:transparent ;
+  border: none;
 }
-.btnproximo:active{
-  background-color:brown;
+.op2:active{
+  background-color: rgb(67, 67, 199);
+  opacity: 20%;
+}
+.op3{
+  cursor: pointer;
+  position: relative;
+  width: 20%;
+  top: 0vh;
+  height: 10vh;
+  border-radius: 100%;
+  right: 27%;
+  background-color:transparent ;
+  border: none;
+}
+.op3:active{
+  background-color: rgb(67, 67, 199);
+  opacity: 20%;
 }

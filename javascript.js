@@ -1,12 +1,17 @@
-const buttonVoltar = document.querySelector('.btnvoltar');
-const buttonProximo = document.querySelector('.btnproximo');
+const op1 = document.querySelector('.op1');
+const op2 = document.querySelector('.op2');
+const op3 = document.querySelector('.op3');
+const perso1 = document.querySelector('.perso1');
 
 
-buttonVoltar.addEventListener('click',()=>{
-    alert('voltar clicked')
+op1.addEventListener('click',()=>{
+    perso1.src='../Gameteste/imagens/perso3.gif';
 });
-buttonProximo.addEventListener('click',()=>{
-    alert('Proximo clicked')
+op2.addEventListener('click',()=>{
+    perso1.src='../Gameteste/imagens/perso5.gif';
+});
+op3.addEventListener('click',()=>{
+    perso1.src='../Gameteste/imagens/perso6.gif';
 });
 
 
