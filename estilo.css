@@ -11,11 +11,10 @@
     width: 100%;
     height: 100vh;
     margin: 0 auto;
-    background-color: rgb(37, 7, 144);
+    background-color: rgb(0, 0, 0);
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
- 
 }
 
 .digivice{
@@ -27,11 +26,10 @@
 }
 .perso1{
   position: relative;
- 
   width:9%;
   border-radius: 90;
   right:1%;
-  top: -23%;
+  top: -24%;
  
 }
 
@@ -57,13 +55,21 @@ a{
   cursor: pointer;
 }
 
-.iniciar{
+.Megabrasao{
   position: absolute;
-  left: 40%;
-  width: 8%;
-  height: 17vh;
-  top: 31%;
-  opacity: 20%;
+  width: 30%;
+  height: 70vh;
+  right: 70%;
+  top: 10vh;
+  opacity: 0;
+}
+.Megabrasao2{
+  position: absolute;
+  width: 30%;
+  height: 70vh;
+  right: 0%;
+  top: 10vh;
+  opacity: 0;
 }
 
 
@@ -82,17 +88,20 @@ a{
 .op1{
   cursor: pointer;
   position: relative;
+  color: rgb(0, 0, 0);
+  font-size: 150%;
   right: 57%;
   border-radius: 100%;
   width: 17%;
-  height: 14vh;
+  height: 13vh;
   top: 15vh;
   background-color:transparent ;
   border: none;
+  opacity: 10%;
+  z-index: 999;
 }
-.op1:active{
-  background-color: rgb(67, 67, 199);
-  opacity: 20%;
+.op1:hover{
+  opacity: 0%;
 }
 .op2{
   cursor: pointer;
